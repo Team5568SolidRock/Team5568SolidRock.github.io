@@ -1,0 +1,23 @@
+.mainColor {
+  background-color: #1565c0;
+  color: white;
+}
+
+.mainColorDark {
+  background-color: #003c8f;
+  color: white;
+}
+
+.secondaryColor {
+  background-color: #fbc02d;
+  color: black;
+}
+
+.mainImage {
+  transform: rotate(180deg);
+}
+
+.twitterLogo {
+  transform: translateY(-10px) translateX(-10px);
+  width:55px;
+}
