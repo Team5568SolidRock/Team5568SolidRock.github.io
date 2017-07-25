@@ -8,11 +8,75 @@
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"
   </head>
   <body>
-    <h1>Team 5568 Solid Rock Website</h1>
-    <p>Website in development</p>
+    <header>
+      <nav>
+        <div class="nav-wrapper mainColor">
+          <a href="#" class="brand-logo" style="transform: translateX(20px)">Team 5568 - Solid Rock</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down" style="transform: translateX(-20px)">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Donate</a></li>
+          </ul>
+          <ul class="side-nav" >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Donate</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <img src="images/teamPhoto.jpg" class="responsive-img mainImage">
+      <div class="container section">
+        <div class="row">
+          <div class="col m12 l4 center-align">
+            <img src="images/FIRSTLogo.jpg" style="max-width: 60%">
+            <h3>What is FIRST?</h3>
+            <p>For Inspiration and Recognition of Science and Technology (FIRST)
+               is an international youth organization that operates the FIRST
+               Robotics Competition (FRC) , FIRST LEGO League (FLL), FIRST
+               LEGO League Jr. (FLLJ) , and FIRST Tech Challenge (FTC) competitions.</p>
+          </div>
+          <div class="col m12 l4 offset-l3  center-align">
+            <h3>Who are we?</h3>
+            <p>We are  a FIRST robotics team based in Bentonville Arkansas.
+              We provide a way to learn how to build robots, solve complex
+              problems, and work as a team. We believe in coopertition and
+              working hard to achieve our best.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer mainColor">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Connect</h5>
+            <div class="row">
+              <div class="col s4 m2"><a href="https://github.com/Team5568SolidRock"><img class="responsive-img" src="images/GitHub-Mark-Light-32px.png"></a></div>
+              <div class="col s4 m2"><a href="https://twitter.com/TheWolfbytes"><img class="twitterLogo" src="images/TwitterLogo_white.png"></a></div>
+              <div class="col s4 m2"><a href="https://www.facebook.com/solidrockrobotics"><img class="responsive-img" src="images/FB-f-Logo__white_29.png"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright mainColorDark">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right hide" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script>
+      $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+    })</script>
   </body>
 </html>
