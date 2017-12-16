@@ -3,6 +3,26 @@
   color: white;
 }
 
+.mainColorTextDark {
+  color: #003c8f;
+
+}
+
+.bottomButton {
+  margin-top: 50px;
+}
+
+.mainColorButton {
+ color: white;  
+ background-color: #1565c0; 
+
+}
+
+.mainColorText {
+color: #1565c0;
+
+}
+
 .mainColorDark {
   background-color: #003c8f;
   color: white;
@@ -17,7 +37,14 @@
   transform: rotate(180deg);
 }
 
+.aboutImage {
+  max-width: 70em;
+  
+}
+
 .twitterLogo {
   transform: translateY(-10px) translateX(-10px);
   width:55px;
+
+
 }
