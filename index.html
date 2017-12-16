@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5"/>
     <title>Solid Rock 5568</title>
 
     <!-- CSS -->
@@ -12,28 +12,35 @@
   </head>
   <body>
     <header>
+        <container>
       <nav>
+        <!-- navigation -->
         <div class="nav-wrapper mainColor">
           <a href="#" class="brand-logo" style="transform: translateX(20px)">Team 5568 - Solid Rock</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down" style="transform: translateX(-20px)">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="side-nav" >
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <img src="images/teamPhoto.jpg" class="responsive-img mainImage">
+      <!-- body -->
+      <!-- main photo -->
+        <div class="parallax-container">
+            <img src="images/teamPhoto.jpg" class="responsive-img mainImage"></div>
+          </div>
       <div class="container section">
         <div class="row">
           <div class="col m12 l4 center-align">
+        <!-- main page body -->
             <a href="https://www.firstinspires.org/"><img src="images/FIRSTLogo.jpg" style="max-width: 60%"></a>
             <h3>What is FIRST?</h3>
             <p>For Inspiration and Recognition of Science and Technology (FIRST)
@@ -47,11 +54,14 @@
               We provide a way to learn how to build robots, solve complex
               problems, and work as a team. We believe in coopertition and
               working hard to achieve our best.</p>
+<a href="contact.html" class="waves-effect waves-light btn-large mainColorButton bottomButton"><i class="material-icons right">email</i>Contact Us!</a>
           </div>
         </div>
       </div>
+    
     </main>
-
+ 
+    <!-- footer -->
     <footer class="page-footer mainColor">
       <div class="container">
         <div class="row">
@@ -67,16 +77,14 @@
       </div>
       <div class="footer-copyright mainColorDark">
         <div class="container">
-        © 2014 Copyright Text
+        5568 Robotics
         <a class="grey-text text-lighten-4 right hide" href="#!">More Links</a>
+      </container>
         </div>
       </div>
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <script>
-      $( document ).ready(function(){
-        $(".button-collapse").sideNav();
-    })</script>
+   <script type="text/javascript " src="js/init.js "></script> 
   </body>
 </html>
